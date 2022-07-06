@@ -31,14 +31,6 @@
       "_index-5f038599.js"
     ]
   },
-  "src/routes/aboutPopUp/index.svelte": {
-    "file": "entries/pages/aboutPopUp/index.svelte.js",
-    "src": "src/routes/aboutPopUp/index.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-5f038599.js"
-    ]
-  },
   "src/routes/index.svelte": {
     "file": "entries/pages/index.svelte.js",
     "src": "src/routes/index.svelte",

@@ -28,11 +28,10 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "start-76c724e7.js", "js": ["start-76c724e7.js", "chunks/index-0b8a7a3e.js"], "css": [] },
+    entry: { "file": "start-e9998e2b.js", "js": ["start-e9998e2b.js", "chunks/index-0b8a7a3e.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/2.js")))
     ],
     routes: [
@@ -54,17 +53,6 @@ const manifest = {
         names: [],
         types: [],
         load: () => Promise.resolve().then(() => __toESM(require("./entries/endpoints/js.js")))
-      },
-      {
-        type: "page",
-        id: "aboutPopUp",
-        pattern: /^\/aboutPopUp\/?$/,
-        names: [],
-        types: [],
-        path: "/aboutPopUp",
-        shadow: null,
-        a: [0, 3],
-        b: [1]
       }
     ],
     matchers: async () => {
