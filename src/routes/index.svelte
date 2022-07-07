@@ -1,7 +1,7 @@
 <script>
 import Swal from 'sweetalert2'
 
-
+import logo from '/src/lib/Swift.webp';
 
   function handleClick() {
     Swal.fire({
@@ -688,7 +688,7 @@ body {
         
         <div class="c-article__img-wrapper">
           <img>
-          <img class="c-article__img" src="./src/Swift.webp" alt="" />
+          <img class="c-article__img" src={logo} alt="" />
           
         </div>
       </a>

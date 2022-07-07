@@ -2,10 +2,10 @@ const { init } = require('../serverless.js');
 
 exports.handler = init({
 	appDir: "_app",
-	assets: new Set(["favicon.png"]),
+	assets: new Set(["fav.png","fav2.png","fav3.png","favicon(2).png","favicon.png","favicon2.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		entry: {"file":"start-6de1f6a2.js","js":["start-6de1f6a2.js","chunks/index-0b8a7a3e.js"],"css":[]},
+		entry: {"file":"start-1071d982.js","js":["start-1071d982.js","chunks/index-0b8a7a3e.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js'))
