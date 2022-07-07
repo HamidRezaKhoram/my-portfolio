@@ -275,7 +275,7 @@ span {
 }
 
 .plist{
-  font-size: 11pt;
+  font-size: 11pt auto;
 }
 
 .phead{
@@ -380,6 +380,8 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: rem(26);
   margin: 0;
+  
+  
 }
 
 .c-logo__link {
@@ -429,6 +431,20 @@ body {
   // text-transform: uppercase;
 }
   /* The typing effect */
+  @media screen and (max-width: 400px){
+    .c-main-heading{
+      font-size: rem(25);
+    }
+    .c-main-menu__link{
+      font-size: rem(14);
+      margin: 0 rem(3);
+      padding: rem(1);
+    }
+    .c-logo{
+      font-size: rem(20);
+    }
+    
+  }
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
@@ -639,13 +655,14 @@ body {
 <main id="page" class="o-page">
   <header class="o-header">
     <h1 class="c-logo"><a class="c-logo__link" href="" target="_blank">PORTFOLIO</a></h1>
+    
     <nav class="c-main-menu" aria-labelledby="mainmenulabel">
       <h2 id="mainmenulabel" class="u-visually-hidden">Main Menu</h2>
       <ul class="c-main-menu__list">
         
         
         <li><a class="c-main-menu__link" href="#about">About</a></li>
-        <li><a class="c-main-menu__link" href="" on:click={handleClick}  >Contact</a></li>
+        <li><a class="c-main-menu__link" href="" on:click={handleClick}>Contact</a></li>
       </ul>
     </nav>
   </header>
