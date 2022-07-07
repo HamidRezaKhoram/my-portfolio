@@ -7,10 +7,12 @@ import logo from '/src/lib/Swift.webp';
     Swal.fire({
   title: '<strong>Contacts</strong>',
   background: '#F0EBE3',
-  icon: 'success',
+  icon: 'info',
   html:
-    'My Twitter, Github and LinkedIn ' +
-    '<a href="//sweetalert2.github.io">links</a> ',
+    '<a href="https://github.com/HamidRezaKhoram">GitHub</a> '+
+    '<a href="https://www.instagram.com/hamid.khoram.8/">Instagram</a> '+
+    '<a href="https://www.linkedin.com/in/hamidreza-khoramrokh-239786219/">LikdedIn</a> '+
+    '<a href="https://twitter.com/hrkh1380">Twitter</a> ' ,
   showCloseButton: true,
   showCancelButton: false,
   focusConfirm: false,
