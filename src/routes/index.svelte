@@ -92,7 +92,11 @@ p {
   overflow: hidden;
   width: 0;
 }
-
+@media screen and (max-width: 500px){
+  p{
+    margin-left: -5em;
+  }
+}
 span {
   color: #fff;
   font-weight: bold;
@@ -431,18 +435,28 @@ body {
   // text-transform: uppercase;
 }
   /* The typing effect */
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 500px){
+
     .c-main-heading{
+      
       font-size: rem(25);
     }
     .c-main-menu__link{
-      font-size: rem(14);
-      margin: 0 rem(3);
+      font-size: rem(13);
+      margin: 0 rem(5);
       padding: rem(1);
+      margin-left: 2.5em;
+      margin-right: 0.1em;
+      
     }
     .c-logo{
-      font-size: rem(20);
+      margin-left: -0.7em;
+      margin-top: -0.2em;
+      font-size: rem(25);
     }
+   
+    
+
     
   }
   @keyframes typing {
@@ -483,7 +497,7 @@ body {
 
 .c-article__img-wrapper {
   height: rem(100);
-  margin-left: rem(20);
+  margin-left: rem(10);
   min-width: rem(160);
   width: rem(160);
 }
@@ -677,10 +691,14 @@ body {
         <div class="fakeButtons fakeZoom"></div>
       </div>
       <div class="fakeScreen">
-        <p class="line1">&#91;&nbsp;&ldquo;I'm a web developer.&rdquo;,<span class="cursor1">_</span></p>
+        <p class="line1">&#91;&nbsp;&ldquo;I'm a web developer.&rdquo;,<span class="cursor1">_</span><span></span></p>
         <p class="line2">&nbsp;&nbsp;&ldquo;I'm a mobile developer.&rdquo;,<span class="cursor2">_</span></p>
         <p class="line3">&nbsp;&nbsp;&ldquo;Let's work together!&rdquo;&nbsp;&#93;<span class="cursor3">_</span></p>
         <p class="line4">><span class="cursor4">_</span></p>
+        
+      </div>
+      <div>
+        
       </div>
     </div>
     
@@ -688,19 +706,13 @@ body {
       <a class="c-article__link">
         <div>
           <header>
-            <h3 class="c-article__heading" id="about">About me</h3>
+            <h3 class="c-article__heading" id="about">A learning developer, in the middle of getting a CS degere at Ryerson/TMU University</h3>
           </header>
           <div class="c-article__content">
-            <div class="phead">CS Student at Ryerson University.</div>
+           
             
-            Experienced with:
-            <li class="plist">Swift/StoryBoard/SwiftUI.</li>
-            <li class="plist">JS and HTML/CSS.</li>
-            <li class="plist">Simple server setups.</li>
-            <li class="plist">Java</li>
             
-            <div class="phead">Comfortable with:</div>
-            <li class="plist">Linux and Command lines.</li>
+
             
           </div>
         </div>
@@ -717,7 +729,9 @@ body {
       <a class="c-article__link">
         <div>
           <header>
-            <h3 class="c-article__heading"></h3>
+            <h3 class="c-article__heading">I have experience working with <a href="">Swift</a>,
+              <a>JS & HTML/CSS</a>, and
+              <a>Simple Linux & backend server setups.</a></h3>
           </header>
           <div class="c-article__content">
             
@@ -733,7 +747,7 @@ body {
       <a class="c-article__link">
         <div>
           <header>
-            <h3 class="c-article__heading">Open to New Experiences</h3>
+            <h3 class="c-article__heading">Open to New Experiences, and always eagear to try out diffrent </h3>
           </header>
           <div class="c-article__content">
             
