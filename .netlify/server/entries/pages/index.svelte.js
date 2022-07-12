@@ -23,17 +23,15 @@ module.exports = __toCommonJS(stdin_exports);
 var import_index_2835083a = require("../../chunks/index-2835083a.js");
 var import_sweetalert2 = require("sweetalert2");
 var logo = "/_app/immutable/assets/Swift-d0d1114e.webp";
-var index_svelte_svelte_type_style_lang = /* @__PURE__ */ (() => `.pad.svelte-1najb13{padding-top:20px}.fakeButtons.svelte-1najb13{height:10px;width:10px;border-radius:50%;border:1px solid #000;position:relative;top:6px;left:6px;background-color:#ff3b47;border-color:#9d252b;display:inline-block}.fakeMinimize.svelte-1najb13{left:11px;background-color:#ffc100;border-color:#9d802c}.fakeZoom.svelte-1najb13{left:16px;background-color:#00d742;border-color:#049931}.fakeMenu.svelte-1najb13{width:auto;box-sizing:border-box;height:25px;background-color:#E4DCCF;margin:0 auto;border-top-right-radius:5px;border-top-left-radius:5px}.fakeScreen.svelte-1najb13{background-color:#576F72;box-sizing:border-box;width:auto;margin:0 auto;padding:20px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}p.svelte-1najb13{position:relative;left:30%;margin-left:-9em;text-align:left;font-size:1.25em;font-family:monospace;white-space:nowrap;overflow:hidden;width:0}@media screen and (max-width: 500px){p.svelte-1najb13{margin-left:-5em}}span.svelte-1najb13{color:#fff;font-weight:bold}.line1.svelte-1najb13{color:#9CD9F0;-webkit-animation:svelte-1najb13-type .5s 1s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 1s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 1s steps(20, end) forwards;animation:svelte-1najb13-type .5s 1s steps(20, end) forwards}.cursor1.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 2s 2 forwards;-moz-animation:svelte-1najb13-blink 1s 2s 2 forwards;-o-animation:svelte-1najb13-blink 1s 2s 2 forwards;animation:svelte-1najb13-blink 1s 2s 2 forwards}.line2.svelte-1najb13{color:#CDEE69;-webkit-animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards;animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards}.cursor2.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 5.25s 2 forwards;-moz-animation:svelte-1najb13-blink 1s 5.25s 2 forwards;-o-animation:svelte-1najb13-blink 1s 5.25s 2 forwards;animation:svelte-1najb13-blink 1s 5.25s 2 forwards}.line3.svelte-1najb13{color:#E09690;-webkit-animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards;animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards}.cursor3.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 8.5s 2 forwards;-moz-animation:svelte-1najb13-blink 1s 8.5s 2 forwards;-o-animation:svelte-1najb13-blink 1s 8.5s 2 forwards;animation:svelte-1najb13-blink 1s 8.5s 2 forwards}.line4.svelte-1najb13{color:#fff;-webkit-animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards;animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards}.cursor4.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 11.5s infinite;-moz-animation:svelte-1najb13-blink 1s 8.5s infinite;-o-animation:svelte-1najb13-blink 1s 8.5s infinite;animation:svelte-1najb13-blink 1s 8.5s infinite}@-webkit-keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-moz-keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-o-keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-webkit-keyframes svelte-1najb13-type{to{width:17em}}@-moz-keyframes svelte-1najb13-type{to{width:17em}}@-o-keyframes svelte-1najb13-type{to{width:17em}}@keyframes svelte-1najb13-type{to{width:17em}}body{background-color:#F0EBE3;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='232' height='232' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23576F72' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%237D9D9C'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E")}@keyframes svelte-1najb13-typing{from{width:0 }to{width:100% }}@keyframes svelte-1najb13-blink-caret{from,to{border-color:transparent }50%{border-color:orange }}`)();
+var logo2 = "/_app/immutable/assets/linux-9640081e.png";
+var index_svelte_svelte_type_style_lang = /* @__PURE__ */ (() => `.pad.svelte-1krszbi{padding-top:20px}.fakeButtons.svelte-1krszbi{height:10px;width:10px;border-radius:50%;border:1px solid #000;position:relative;top:6px;left:6px;background-color:#ff3b47;border-color:#9d252b;display:inline-block}.fakeMinimize.svelte-1krszbi{left:11px;background-color:#ffc100;border-color:#9d802c}.fakeZoom.svelte-1krszbi{left:16px;background-color:#00d742;border-color:#049931}.fakeMenu.svelte-1krszbi{width:auto;box-sizing:border-box;height:25px;background-color:#e4dccf;margin:0 auto;border-top-right-radius:5px;border-top-left-radius:5px}.fakeScreen.svelte-1krszbi{background-color:#576f72;box-sizing:border-box;width:auto;margin:0 auto;padding:20px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}p.svelte-1krszbi{position:relative;left:30%;margin-left:-9em;text-align:left;font-size:1.25em;font-family:monospace;white-space:nowrap;overflow:hidden;width:0}@media screen and (max-width: 500px){p.svelte-1krszbi{margin-left:-5em}}span.svelte-1krszbi{color:#fff;font-weight:bold}.line1.svelte-1krszbi{color:#9cd9f0;-webkit-animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards}.cursor1.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 2s 2 forwards;-moz-animation:svelte-1krszbi-blink 1s 2s 2 forwards;-o-animation:svelte-1krszbi-blink 1s 2s 2 forwards;animation:svelte-1krszbi-blink 1s 2s 2 forwards}.line2.svelte-1krszbi{color:#cdee69;-webkit-animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards}.cursor2.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 5.25s 2 forwards;-moz-animation:svelte-1krszbi-blink 1s 5.25s 2 forwards;-o-animation:svelte-1krszbi-blink 1s 5.25s 2 forwards;animation:svelte-1krszbi-blink 1s 5.25s 2 forwards}.line3.svelte-1krszbi{color:#e09690;-webkit-animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards}.cursor3.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 8.5s 2 forwards;-moz-animation:svelte-1krszbi-blink 1s 8.5s 2 forwards;-o-animation:svelte-1krszbi-blink 1s 8.5s 2 forwards;animation:svelte-1krszbi-blink 1s 8.5s 2 forwards}.line4.svelte-1krszbi{color:#fff;-webkit-animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards}.cursor4.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 11.5s infinite;-moz-animation:svelte-1krszbi-blink 1s 8.5s infinite;-o-animation:svelte-1krszbi-blink 1s 8.5s infinite;animation:svelte-1krszbi-blink 1s 8.5s infinite}@-webkit-keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-moz-keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-o-keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-webkit-keyframes svelte-1krszbi-type{to{width:17em}}@-moz-keyframes svelte-1krszbi-type{to{width:17em}}@-o-keyframes svelte-1krszbi-type{to{width:17em}}@keyframes svelte-1krszbi-type{to{width:17em}}body{background-color:#f0ebe3;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='232' height='232' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23576F72' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%237D9D9C'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E")}@keyframes svelte-1krszbi-typing{from{width:0}to{width:100%}}@keyframes svelte-1krszbi-blink-caret{from,to{border-color:transparent}50%{border-color:orange}}`)();
 const css = {
-  code: `.pad.svelte-1najb13{padding-top:20px}.fakeButtons.svelte-1najb13{height:10px;width:10px;border-radius:50%;border:1px solid #000;position:relative;top:6px;left:6px;background-color:#ff3b47;border-color:#9d252b;display:inline-block}.fakeMinimize.svelte-1najb13{left:11px;background-color:#ffc100;border-color:#9d802c}.fakeZoom.svelte-1najb13{left:16px;background-color:#00d742;border-color:#049931}.fakeMenu.svelte-1najb13{width:auto;box-sizing:border-box;height:25px;background-color:#E4DCCF;margin:0 auto;border-top-right-radius:5px;border-top-left-radius:5px}.fakeScreen.svelte-1najb13{background-color:#576F72;box-sizing:border-box;width:auto;margin:0 auto;padding:20px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}p.svelte-1najb13{position:relative;left:30%;margin-left:-9em;text-align:left;font-size:1.25em;font-family:monospace;white-space:nowrap;overflow:hidden;width:0}@media screen and (max-width: 500px){p.svelte-1najb13{margin-left:-5em}}span.svelte-1najb13{color:#fff;font-weight:bold}.line1.svelte-1najb13{color:#9CD9F0;-webkit-animation:svelte-1najb13-type .5s 1s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 1s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 1s steps(20, end) forwards;animation:svelte-1najb13-type .5s 1s steps(20, end) forwards}.cursor1.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 2s 2 forwards;-moz-animation:svelte-1najb13-blink 1s 2s 2 forwards;-o-animation:svelte-1najb13-blink 1s 2s 2 forwards;animation:svelte-1najb13-blink 1s 2s 2 forwards}.line2.svelte-1najb13{color:#CDEE69;-webkit-animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards;animation:svelte-1najb13-type .5s 4.25s steps(20, end) forwards}.cursor2.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 5.25s 2 forwards;-moz-animation:svelte-1najb13-blink 1s 5.25s 2 forwards;-o-animation:svelte-1najb13-blink 1s 5.25s 2 forwards;animation:svelte-1najb13-blink 1s 5.25s 2 forwards}.line3.svelte-1najb13{color:#E09690;-webkit-animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards;animation:svelte-1najb13-type .5s 7.5s steps(20, end) forwards}.cursor3.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 8.5s 2 forwards;-moz-animation:svelte-1najb13-blink 1s 8.5s 2 forwards;-o-animation:svelte-1najb13-blink 1s 8.5s 2 forwards;animation:svelte-1najb13-blink 1s 8.5s 2 forwards}.line4.svelte-1najb13{color:#fff;-webkit-animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards;-moz-animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards;-o-animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards;animation:svelte-1najb13-type .5s 10.75s steps(20, end) forwards}.cursor4.svelte-1najb13{-webkit-animation:svelte-1najb13-blink 1s 11.5s infinite;-moz-animation:svelte-1najb13-blink 1s 8.5s infinite;-o-animation:svelte-1najb13-blink 1s 8.5s infinite;animation:svelte-1najb13-blink 1s 8.5s infinite}@-webkit-keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-moz-keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-o-keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@keyframes svelte-1najb13-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-webkit-keyframes svelte-1najb13-type{to{width:17em}}@-moz-keyframes svelte-1najb13-type{to{width:17em}}@-o-keyframes svelte-1najb13-type{to{width:17em}}@keyframes svelte-1najb13-type{to{width:17em}}body{background-color:#F0EBE3;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='232' height='232' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23576F72' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%237D9D9C'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E")}@keyframes svelte-1najb13-typing{from{width:0 }to{width:100% }}@keyframes svelte-1najb13-blink-caret{from,to{border-color:transparent }50%{border-color:orange }}`,
+  code: `.pad.svelte-1krszbi{padding-top:20px}.fakeButtons.svelte-1krszbi{height:10px;width:10px;border-radius:50%;border:1px solid #000;position:relative;top:6px;left:6px;background-color:#ff3b47;border-color:#9d252b;display:inline-block}.fakeMinimize.svelte-1krszbi{left:11px;background-color:#ffc100;border-color:#9d802c}.fakeZoom.svelte-1krszbi{left:16px;background-color:#00d742;border-color:#049931}.fakeMenu.svelte-1krszbi{width:auto;box-sizing:border-box;height:25px;background-color:#e4dccf;margin:0 auto;border-top-right-radius:5px;border-top-left-radius:5px}.fakeScreen.svelte-1krszbi{background-color:#576f72;box-sizing:border-box;width:auto;margin:0 auto;padding:20px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}p.svelte-1krszbi{position:relative;left:30%;margin-left:-9em;text-align:left;font-size:1.25em;font-family:monospace;white-space:nowrap;overflow:hidden;width:0}@media screen and (max-width: 500px){p.svelte-1krszbi{margin-left:-5em}}span.svelte-1krszbi{color:#fff;font-weight:bold}.line1.svelte-1krszbi{color:#9cd9f0;-webkit-animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 1s steps(20, end) forwards}.cursor1.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 2s 2 forwards;-moz-animation:svelte-1krszbi-blink 1s 2s 2 forwards;-o-animation:svelte-1krszbi-blink 1s 2s 2 forwards;animation:svelte-1krszbi-blink 1s 2s 2 forwards}.line2.svelte-1krszbi{color:#cdee69;-webkit-animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 4.25s steps(20, end) forwards}.cursor2.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 5.25s 2 forwards;-moz-animation:svelte-1krszbi-blink 1s 5.25s 2 forwards;-o-animation:svelte-1krszbi-blink 1s 5.25s 2 forwards;animation:svelte-1krszbi-blink 1s 5.25s 2 forwards}.line3.svelte-1krszbi{color:#e09690;-webkit-animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 7.5s steps(20, end) forwards}.cursor3.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 8.5s 2 forwards;-moz-animation:svelte-1krszbi-blink 1s 8.5s 2 forwards;-o-animation:svelte-1krszbi-blink 1s 8.5s 2 forwards;animation:svelte-1krszbi-blink 1s 8.5s 2 forwards}.line4.svelte-1krszbi{color:#fff;-webkit-animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards;-moz-animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards;-o-animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards;animation:svelte-1krszbi-type 0.5s 10.75s steps(20, end) forwards}.cursor4.svelte-1krszbi{-webkit-animation:svelte-1krszbi-blink 1s 11.5s infinite;-moz-animation:svelte-1krszbi-blink 1s 8.5s infinite;-o-animation:svelte-1krszbi-blink 1s 8.5s infinite;animation:svelte-1krszbi-blink 1s 8.5s infinite}@-webkit-keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-moz-keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-o-keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@keyframes svelte-1krszbi-blink{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}@-webkit-keyframes svelte-1krszbi-type{to{width:17em}}@-moz-keyframes svelte-1krszbi-type{to{width:17em}}@-o-keyframes svelte-1krszbi-type{to{width:17em}}@keyframes svelte-1krszbi-type{to{width:17em}}body{background-color:#f0ebe3;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='232' height='232' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23576F72' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%237D9D9C'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E")}@keyframes svelte-1krszbi-typing{from{width:0}to{width:100%}}@keyframes svelte-1krszbi-blink-caret{from,to{border-color:transparent}50%{border-color:orange}}`,
   map: null
 };
 const Routes = (0, import_index_2835083a.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<html lang="${"eng"}"><style lang="${"scss"}">/**
-* CSS custom properties
-*/
-:root {
+  return `<html lang="${"eng"}"><style lang="${"scss"}">:root {
   --black: #404040;
   --white: #fff;
   --gray: rgba(64, 64, 64, 0.15);
@@ -42,12 +40,6 @@ const Routes = (0, import_index_2835083a.c)(($$result, $$props, $$bindings, slot
   --font-light: 300;
 }
 
-/**
- * Functions
- */
-/**
- * Placeholders
- */
 .u-visually-hidden {
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
@@ -65,21 +57,12 @@ const Routes = (0, import_index_2835083a.c)(($$result, $$props, $$bindings, slot
   padding: 0;
 }
 
-/**
- * Styles
- */
-/**
- * Elements
- */
 body {
   background-color: var(--white);
   color: var(--black);
   font-family: var(--font-open-sans);
 }
 
-/**
- * Objects
- */
 .o-page {
   max-width: 100%;
   overflow-x: hidden;
@@ -98,9 +81,6 @@ body {
   max-width: 37.5rem;
 }
 
-/**
- * Components
- */
 .c-logo {
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
   font-family: "Roboto Slab", serif;
@@ -109,7 +89,7 @@ body {
 }
 
 .c-logo__link {
-  color: #576F72;
+  color: #576f72;
   text-decoration: none;
 }
 
@@ -122,18 +102,18 @@ body {
 }
 
 .c-main-menu__link {
-  color: #576F72;
+  color: #576f72;
   display: inline-block;
   font-size: 0.875rem;
   letter-spacing: 0.25rem;
   margin: 0 0.375rem;
   padding: 0.625rem;
-  text-decoration: none;
+  text-decoration: underline;
   text-transform: uppercase;
 }
 
 .c-main-heading {
-  max-width: 21.875rem;
+  max-width: 24.375rem;
   font-size: 1.875rem;
   font-weight: var(--font-light);
   letter-spacing: 0.1875rem;
@@ -144,10 +124,18 @@ body {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: blink-caret 1s step-end infinite;
+  animation: blink-caret 1.5s step-end infinite;
 }
 
 /* The typing effect */
+/*media things*/
+@media screen and (max-width: 400px) {
+  .c-logo {
+    margin-left: -0.7em;
+    margin-top: -0.2em;
+    font-size: 1.25rem;
+  }
+}
 @media screen and (max-width: 500px) {
   .c-main-heading {
     font-size: 1.5625rem;
@@ -196,8 +184,11 @@ body {
 }
 
 .c-article__heading {
-  font-size: 1.25rem;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9375rem;
   margin: 0.3125rem 0;
+  display: inline-block;
 }
 
 .c-article__content {
@@ -206,10 +197,9 @@ body {
 }
 
 .c-article__img-wrapper {
-  height: 6.25rem;
+  height: auto;
+  width: 400px;
   margin-left: 0.625rem;
-  min-width: 10rem;
-  width: 10rem;
 }
 
 .c-article__img {
@@ -350,42 +340,89 @@ body {
   }
 }
 /**
- * Utilities
- */</style>
+* Utilities
+*/</style>
   <div class="${"c-magic-area c-magic-area--menu"}" data-target-class="${".c-main-menu__link"}" data-tween-back="${"true"}" aria-hidden="${"true"}"></div>
-<div class="${"c-magic-area c-magic-area--content"}" data-target-class="${".c-article__link"}" data-tween-back="${"false"}" aria-hidden="${"true"}"></div>
+  <div class="${"c-magic-area c-magic-area--content"}" data-target-class="${".c-article__link"}" data-tween-back="${"false"}" aria-hidden="${"true"}"></div>
 
-<main id="${"page"}" class="${"o-page"}"><header class="${"o-header"}"><h1 class="${"c-logo"}"><a class="${"c-logo__link"}" href="${""}" target="${"_blank"}">PORTFOLIO</a></h1>
-    
-    <nav class="${"c-main-menu"}" aria-labelledby="${"mainmenulabel"}"><h2 id="${"mainmenulabel"}" class="${"u-visually-hidden"}">Main Menu</h2>
-      <ul class="${"c-main-menu__list"}"><li><a class="${"c-main-menu__link"}" href="${"#about"}">About</a></li>
-        <li><a class="${"c-main-menu__link"}" href="${""}">Contact</a></li></ul></nav></header>
+  <main id="${"page"}" class="${"o-page"}"><header class="${"o-header"}"><style lang="${"less"}">.linear-wipe {
+  text-align: center;
+  background: linear-gradient(to right, #576f72 20%, #576f72 40%, black 60%, #576f72 80%);
+  background-size: 200% auto;
+  color: #a08d7b;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear 5;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
+      <h1 class="${"c-logo"}"><a class="${"c-logo__link linear-wipe"}" href="${""}" target="${"_blank"}">PORTFOLIO!</a></h1>
 
-  <section class="${"o-main-section"}"><h2 class="${"c-main-heading"}">Hi there, I&#39;m Hamid.</h2>
-    <div class="${"pad svelte-1najb13"}"><div class="${"fakeMenu svelte-1najb13"}"><div class="${"fakeButtons fakeClose svelte-1najb13"}"></div>
-        <div class="${"fakeButtons fakeMinimize svelte-1najb13"}"></div>
-        <div class="${"fakeButtons fakeZoom svelte-1najb13"}"></div></div>
-      <div class="${"fakeScreen svelte-1najb13"}"><p class="${"line1 svelte-1najb13"}">[\xA0\u201CI&#39;m a web developer.\u201D,<span class="${"cursor1 svelte-1najb13"}">_</span><span class="${"svelte-1najb13"}"></span></p>
-        <p class="${"line2 svelte-1najb13"}">\xA0\xA0\u201CI&#39;m a mobile developer.\u201D,<span class="${"cursor2 svelte-1najb13"}">_</span></p>
-        <p class="${"line3 svelte-1najb13"}">\xA0\xA0\u201CLet&#39;s work together!\u201D\xA0]<span class="${"cursor3 svelte-1najb13"}">_</span></p>
-        <p class="${"line4 svelte-1najb13"}">&gt;<span class="${"cursor4 svelte-1najb13"}">_</span></p></div>
-      <div></div></div>
-    
-    <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><h3 class="${"c-article__heading"}" id="${"about"}">A learning developer, in the middle of getting a CS degere at Ryerson/TMU University</h3></header>
-          <div class="${"c-article__content"}"></div></div>
-        
-        <div class="${"c-article__img-wrapper"}"><img>
-          <img class="${"c-article__img"}"${(0, import_index_2835083a.a)("src", logo, 0)} alt="${""}"></div></a></article>
+      <nav class="${"c-main-menu"}" aria-labelledby="${"mainmenulabel"}"><h2 id="${"mainmenulabel"}" class="${"u-visually-hidden"}">Main Menu</h2>
+        <ul class="${"c-main-menu__list"}"><li><a class="${"c-main-menu__link"}" href="${""}">Contact</a></li></ul></nav></header>
 
-    <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><h3 class="${"c-article__heading"}">I have experience working with <a href="${""}">Swift</a>,
-              <a>JS &amp; HTML/CSS</a>, and
-              <a>Simple Linux &amp; backend server setups.</a></h3></header>
-          <div class="${"c-article__content"}"></div></div>
-        <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}" src="${"https://assets.codepen.io/204808/css-grid-mondrian.png"}" alt="${"Responsive Mondrian art with CSS grid"}"></div></a></article>
+    <section class="${"o-main-section"}"><h2 class="${"c-main-heading"}">Hey there, I&#39;m Hamid.</h2>
+      <div class="${"pad svelte-1krszbi"}"><div class="${"fakeMenu svelte-1krszbi"}"><div class="${"fakeButtons fakeClose svelte-1krszbi"}"></div>
+          <div class="${"fakeButtons fakeMinimize svelte-1krszbi"}"></div>
+          <div class="${"fakeButtons fakeZoom svelte-1krszbi"}"></div></div>
+        <div class="${"fakeScreen svelte-1krszbi"}"><p class="${"line1 svelte-1krszbi"}">[\xA0\u201CI&#39;m a web developer.\u201D,<span class="${"cursor1 svelte-1krszbi"}">_</span><span class="${"svelte-1krszbi"}"></span></p>
+          <p class="${"line2 svelte-1krszbi"}">\xA0\xA0\u201CI&#39;m a mobile developer.\u201D,<span class="${"cursor2 svelte-1krszbi"}">_</span></p>
+          <p class="${"line3 svelte-1krszbi"}">\xA0\xA0\u201CLet&#39;s work together!\u201D\xA0]<span class="${"cursor3 svelte-1krszbi"}">_</span></p>
+          <p class="${"line4 svelte-1krszbi"}">&gt;<span class="${"cursor4 svelte-1krszbi"}">_</span></p></div>
+        <div></div></div>
 
-    <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><h3 class="${"c-article__heading"}">Open to New Experiences, and always eagear to try out diffrent </h3></header>
-          <div class="${"c-article__content"}"></div></div>
-        <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}" src="${"https://assets.codepen.io/204808/17.Space-Rocket-with-requestAnimationFrame.png"}" alt="${"Responsive Mondrian art with CSS grid"}"></div></a></article></section></main>
+      <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><h3 class="${"c-article__heading"}" id="${"about"}">A learning developer,
+                in the middle of getting a CS degere at
+                the Ryerson/TMU University.
+              </h3></header></div>
+          <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}"${(0, import_index_2835083a.a)("src", logo, 0)} alt="${""}"></div></a></article>
 
-<div class="${"c-author"}">Built with \u{1F49B}\xA0 by <a target="${"_blank"}" class="${"c-author__link"}" href="${""}">Hamidreza Khoramrokh</a></div></html>`;
+      <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><style>@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+                .swift {
+                  font-family: "Roboto", sans-serif;
+                  background: -webkit-linear-gradient(#eee, #ff6a32);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .js {
+                  background: -webkit-linear-gradient(#f7e018, black);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .css {
+                  background: -webkit-linear-gradient(#173459, #27a8e1);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .html {
+                  background: -webkit-linear-gradient(#fc490b, black);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .background{
+                  
+                }
+              </style>
+   
+           
+              <h3 class="${"c-article__heading background"}"><a>Experienced working with <a class="${"swift"}">Swift</a>,
+                HTML /
+                <a class="${"css"}">CSS</a>
+                , Linux &amp; Backend.</a></h3></header>
+            <div class="${"c-article__content"}"></div></div>
+          <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}"${(0, import_index_2835083a.a)("src", logo2, 0)} alt="${""}"></div></a></article>
+
+      <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><h3 class="${"c-article__heading"}">Open to New Experiences, and always eagear to try out diffrent things.
+              </h3></header>
+            <div class="${"c-article__content"}"></div></div>
+          <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}" src="${"https://assets.codepen.io/204808/17.Space-Rocket-with-requestAnimationFrame.png"}" alt="${"Responsive Mondrian art with CSS grid"}"></div></a></article></section></main>
+
+  <div class="${"c-author"}">Built with \u{1F49B}\xA0 by <a target="${"_blank"}" class="${"c-author__link"}" href="${""}">Hamidreza Khoramrokh</a></div>
+</html>`;
 });
