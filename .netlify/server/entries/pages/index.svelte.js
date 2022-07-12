@@ -411,14 +411,14 @@ body {
               </style>
    
            
-              <h3 class="${"c-article__heading background"}"><a>Experienced working with <a class="${"swift"}">Swift</a>,
+              <h3 class="${"c-article__heading background"}"><a>Experienced working with <a class="${"swift"}">Swift\u{1F426}</a>,
                 HTML /
                 <a class="${"css"}">CSS</a>
-                , Linux &amp; Backend.</a></h3></header>
+                , Linux\u{1F427} &amp; Backend.</a></h3></header>
             <div class="${"c-article__content"}"></div></div>
           <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}"${(0, import_index_2835083a.a)("src", logo2, 0)} alt="${""}"></div></a></article>
 
-      <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><h3 class="${"c-article__heading"}">Open to New Experiences, and always eagear to try out diffrent things.
+      <article class="${"c-article"}"><a class="${"c-article__link"}"><div><header><h3 class="${"c-article__heading"}">Open to New Experiences, and always eagear to try out diffrent approaches.
               </h3></header>
             <div class="${"c-article__content"}"></div></div>
           <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}" src="${"https://assets.codepen.io/204808/17.Space-Rocket-with-requestAnimationFrame.png"}" alt="${"Responsive Mondrian art with CSS grid"}"></div></a></article></section></main>

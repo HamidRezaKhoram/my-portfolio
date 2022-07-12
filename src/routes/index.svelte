@@ -521,10 +521,10 @@ import Swal from "sweetalert2";
            
               <h3 class="c-article__heading background">
 
-                <a>Experienced working with <a class="swift">Swift</a>,
+                <a>Experienced working with <a class="swift">Swift🐦</a>,
                 HTML /
                 <a class="css">CSS</a>
-                , Linux & Backend.</a>
+                , Linux🐧 & Backend.</a>
 
               </h3>
             </header>
@@ -541,7 +541,7 @@ import Swal from "sweetalert2";
           <div>
             <header>
               <h3 class="c-article__heading">
-                Open to New Experiences, and always eagear to try out diffrent things.
+                Open to New Experiences, and always eagear to try out diffrent approaches.
               </h3>
             </header>
             <div class="c-article__content" />
