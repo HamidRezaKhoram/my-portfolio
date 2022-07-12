@@ -111,7 +111,7 @@
       letter-spacing: rem(4);
       margin: 0 rem(6);
       padding: rem(10);
-      text-decoration: underline;
+      text-decoration: none;
       text-transform: uppercase;
     }
 
@@ -259,13 +259,13 @@
 
     // Author & FE30
     .c-author {
-      color: #404040;
+      color: black;
       margin: 10px 0;
       text-align: center;
     }
 
     .c-author__link {
-      color: #404040;
+      color: black;
       display: inline-block;
       position: relative;
       text-decoration: none;
@@ -281,7 +281,7 @@
       }
 
       &::before {
-        background-color: rgba(64, 64, 64, 0.15);
+        background-color: rgba(64, 64, 64, 0.5);
         width: 100%;
       }
 
@@ -421,12 +421,49 @@
           >PORTFOLIO!</a
         >
       </h1>
+      <style>
+        .selected {
 
+        background-color: transparent;
+          -webkit-animation: vibrate-1 0.5s linear infinite both;
+                animation: vibrate-1 0.5s linear infinite both;
+                background: black;
+                  color: #F0EBE3;
+                  border: 2px solid black;
+                  border-radius: 5px;
+            }
+                @-webkit-keyframes vibrate-1 {
+          0% {
+            -webkit-transform: translate(0);
+                    transform: translate(0);
+          }
+          20% {
+            -webkit-transform: translate(-2px, 2px);
+                    transform: translate(-2px, 2px);
+          }
+          40% {
+            -webkit-transform: translate(-2px, -2px);
+                    transform: translate(-2px, -2px);
+          }
+          60% {
+            -webkit-transform: translate(2px, 2px);
+                    transform: translate(2px, 2px);
+          }
+          80% {
+            -webkit-transform: translate(2px, -2px);
+                    transform: translate(2px, -2px);
+          }
+          100% {
+            -webkit-transform: translate(0);
+                    transform: translate(0);
+          }
+        }
+      </style>
       <nav class="c-main-menu" aria-labelledby="mainmenulabel">
         <h2 id="mainmenulabel" class="u-visually-hidden">Main Menu</h2>
         <ul class="c-main-menu__list">
           <li>
-            <a class="c-main-menu__link" href="" on:click={handleClick}
+            <a class="c-main-menu__link selected" href="" on:click={handleClick}
               >Contact</a
             >
           </li>
