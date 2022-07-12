@@ -149,7 +149,7 @@
         font-size: rem(13);
         margin: 0 rem(5);
         padding: rem(1);
-        margin-left: 2.5em;
+        // margin-left: 2.5em;
         margin-right: 0.1em;
       }
       .c-logo {
@@ -432,7 +432,7 @@
                   border: 8px solid #7D9D9C;
                   border-radius: 5px;
             }
-                @-webkit-keyframes vibrate-1 {
+                @-webkit-keyframes vibrate- {
           0% {
             -webkit-transform: translate(0);
                     transform: translate(0);
