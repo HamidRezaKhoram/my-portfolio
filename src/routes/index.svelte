@@ -427,9 +427,9 @@
         background-color: transparent;
           -webkit-animation: vibrate-1 0.5s linear infinite both;
                 animation: vibrate-1 0.5s linear infinite both;
-                background: black;
-                  color: #F0EBE3;
-                  border: 2px solid black;
+                background: #576F72;
+                  color: white;
+                  border: 8px solid #7D9D9C;
                   border-radius: 5px;
             }
                 @-webkit-keyframes vibrate-1 {
