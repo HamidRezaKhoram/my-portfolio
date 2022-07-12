@@ -220,7 +220,7 @@
       border-radius: rem(10);
       display: block;
       height: 120%;
-      filter: grayscale(1);
+      filter: grayscale(0);
       object-fit: cover;
       transition: filter 0.3s ease-in;
       width: 100%;
@@ -498,15 +498,20 @@
               <style>
                 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
                 .swift {
+                  background: #9A9A9A;
+                  
+                  border: 2px solid #9A9A9A;
+                  border-radius: 5px;
                   font-family: "Roboto", sans-serif;
-                  background: -webkit-linear-gradient(#eee, #ff6a32);
+                  color: -webkit-linear-gradient(#eee, #ff6a32);
                   -webkit-background-clip: text;
                   -webkit-text-fill-color: transparent;
                 }
                 .js {
-                  background: -webkit-linear-gradient(#f7e018, black);
-                  -webkit-background-clip: text;
-                  -webkit-text-fill-color: transparent;
+                  background: #f7e018;
+                  color: #2D2F27;
+                  border: 1px solid #f7e018;
+                  border-radius: 5px;
                 }
                 .css {
                   background: -webkit-linear-gradient(#173459, #27a8e1);
@@ -530,7 +535,7 @@
 
               <h3 class="c-article__heading background">
                 <a
-                  >Experienced working with <a class="swift">Swift🐦</a>, HTML /
+                  >Experienced working with <a class="swift">Swift🐦</a>, <a class="js">Js</a>, HTML /
                   <a class="css">CSS</a>
                   , <a class="linux">Linux🐧</a> & Backend.</a
                 >
