@@ -516,7 +516,7 @@
             <header>
               <h3 class="c-article__heading" id="about">
                 A learning developer, in the middle of getting a CS degere at
-                the <a class="ryersonuni" href="https://www.torontomu.ca/"
+                the university of <a class="ryersonuni" href="https://www.torontomu.ca/"
                   >Ryerson/TMU</a
                 >
               </h3>
