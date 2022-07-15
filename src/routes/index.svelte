@@ -89,6 +89,9 @@
       display: flex;
       justify-content: space-between;
       padding: rem(20);
+      background: black;
+      border-radius: 5px;
+      margin: 10px;
     }
 
     .o-main-section {
