@@ -6,18 +6,29 @@
   import email from "/src/lib/email.png";
   import ig from "/src/lib/instagram.png";
 
+  Swal.fire({
+    title: "<strong>🚧 {In development} 🚧</strong>",
+    background: "#F0EBE3",
 
+    html: "<div> Please be kind to my newly born website :] </div> ",
+    showCloseButton: true,
+    showCancelButton: false,
+    focusConfirm: false,
+    confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+    confirmButtonAriaLabel: "Thumbs up, great!",
+  });
 
   //For button popup handling!
   function handleClick() {
     Swal.fire({
-      title: "<strong>Contacts</strong>",
+      title: "<strong>My Contacts</strong>",
       background: "#F0EBE3",
       icon: "info",
       html:
         '<a href="https://github.com/HamidRezaKhoram">GitHub</a> ' +
-        '<a href="https://www.instagram.com/hamid.khoram.8/">Instagram</a> ' +
+        '<a href="https://www.instagram.com/hamid.khoram.8/">IG</a> ' +
         '<a href="https://www.linkedin.com/in/hamidreza-khoramrokh-239786219/">LikdedIn</a> ' +
+        '<a href="mailto:hamidrezakhoramrokh@gmail.com">Mail</a> ' +
         '<a href="https://twitter.com/hrkh1380">Twitter</a> ',
       showCloseButton: true,
       showCancelButton: false,
@@ -116,13 +127,11 @@
       padding: rem(0);
       text-decoration: none;
       text-transform: uppercase;
-      
-      
     }
 
     // Heading
     .c-main-heading {
-      max-width: rem(350);
+      max-width: rem(380);
       font-size: rem(30);
       font-weight: var(--font-light);
       letter-spacing: rem(3);
@@ -147,9 +156,7 @@
       }
     }
 
-    
     @media screen and (max-width: 500px) {
-
       .c-main-heading {
         max-width: rem(250);
         font-size: rem(20);
@@ -197,9 +204,9 @@
       padding: rem(20);
       text-decoration: none;
 
-      * {
-        pointer-events: none;
-      }
+      // * {
+      //   pointer-events: none;
+      // }
     }
     @media screen and (max-width: 500px) {
     }
@@ -435,7 +442,6 @@
           background-color: transparent;
           -webkit-animation: vibrate-1 0.5s linear infinite both;
           animation: vibrate-1 0.5s linear infinite both;
- 
         }
         @-webkit-keyframes vibrate- {
           0% {
@@ -468,11 +474,15 @@
         <h2 id="mainmenulabel" class="u-visually-hidden">Main Menu</h2>
         <ul class="c-main-menu__list">
           <li>
-            <a class="c-main-menu__link"></a>
+            <a class="c-main-menu__link" />
           </li>
           <li>
-            <a class="c-main-menu__link selected" href="" on:click={handleClick}
-              >        <div>
+            <a
+              class="c-main-menu__link selected"
+              href=""
+              on:click={handleClick}
+            >
+              <div>
                 <style lang="scss">
                   .content {
                     &__container {
@@ -480,27 +490,27 @@
                       overflow: hidden;
                       height: 40px;
                       padding: 0 40px;
-              
+
                       &:before {
                         content: "";
                         left: 0;
                       }
-              
+
                       &:after {
                         content: "";
                         position: absolute;
                         right: 0;
                       }
-              
+
                       &:after,
                       &:before {
                         position: absolute;
                         top: 0;
-              
+
                         color: #16a085;
                         font-size: 42px;
                         line-height: 40px;
-              
+
                         -webkit-animation-name: opacity;
                         -webkit-animation-duration: 2s;
                         -webkit-animation-iteration-count: infinite;
@@ -508,57 +518,53 @@
                         animation-duration: 2s;
                         animation-iteration-count: infinite;
                       }
-              
+
                       &__text1 {
                         display: inline;
                         float: right;
                         padding-right: 200px;
                         margin: 0;
                         font-size: 1em;
-                        left: 0%
+                        left: 0%;
                       }
-              
+
                       &__list {
                         margin-top: 0;
-                       
-                        padding-left: 60%;;
+
+                        padding-left: 60%;
                         text-align: right;
                         list-style: none;
-              
+
                         -webkit-animation-name: change;
                         -webkit-animation-duration: 10s;
                         -webkit-animation-iteration-count: infinite;
                         animation-name: change;
                         animation-duration: 10s;
                         animation-iteration-count: infinite;
-              
+
                         &__item {
                           text-decoration: underline;
                           line-height: 40px;
                           margin: 0;
                         }
                       }
-
                     }
                   }
-                  @media screen and (max-width: 400px){
-                        .content__container__list{
-                          padding-left: 60px;
-                        
-                        }
-                      }
-                      @media screen and (max-width: 500px){
-                        .content__container__list{
-                          padding-left: 165px;
-                        
-                        }
-                      }
-                      @media screen and (max-width: 450px){
-                        .content__container__list{
-                          padding-left: 80%;;
-                        
-                        }
-                      }
+                  @media screen and (max-width: 400px) {
+                    .content__container__list {
+                      padding-left: 60px;
+                    }
+                  }
+                  @media screen and (max-width: 500px) {
+                    .content__container__list {
+                      padding-left: 165px;
+                    }
+                  }
+                  @media screen and (max-width: 450px) {
+                    .content__container__list {
+                      padding-left: 80%;
+                    }
+                  }
                   @-webkit-keyframes opacity {
                     0%,
                     100% {
@@ -568,7 +574,7 @@
                       opacity: 1;
                     }
                   }
-              
+
                   @-webkit-keyframes change {
                     0%,
                     12.66%,
@@ -596,7 +602,7 @@
                       transform: translate3d(0, -25%, 0);
                     }
                   }
-              
+
                   @-o-keyframes opacity {
                     0%,
                     100% {
@@ -606,7 +612,7 @@
                       opacity: 1;
                     }
                   }
-              
+
                   @-o-keyframes change {
                     0%,
                     12.66%,
@@ -634,7 +640,7 @@
                       transform: translate3d(0, -25%, 0);
                     }
                   }
-              
+
                   @-moz-keyframes opacity {
                     0%,
                     100% {
@@ -644,7 +650,7 @@
                       opacity: 1;
                     }
                   }
-              
+
                   @-moz-keyframes change {
                     0%,
                     12.66%,
@@ -672,7 +678,7 @@
                       transform: translate3d(0, -25%, 0);
                     }
                   }
-              
+
                   @keyframes opacity {
                     0%,
                     100% {
@@ -682,7 +688,7 @@
                       opacity: 1;
                     }
                   }
-              
+
                   @keyframes change {
                     0%,
                     12.66%,
@@ -710,51 +716,65 @@
                       transform: translate3d(0, -25%, 0);
                     }
                   }
-              
+
                   // 6 is the number of animation.
                   // Here, there are 4 lines :
-              
+
                   // 1 to 2
                   // 2 to 3
                   // 3 to 4
                   // 4 to 3
                   // 3 to 2
                   // 2 to 1
-              
+
                   // 6x + 6y = 100 (100% duration)
-              
+
                   // HERE :
                   // y = 4 -> Animation between two lines
                   // x = 12.66 -> Time spent on a line
-              
+
                   // You can define a value and calculate the other if you want change speed or the number of lines
                 </style>
                 <div class="content">
                   <div class="content__container">
-        
                     <!-- <p class="content__container__text1 text3">
                       I'm Hamid
                     </p> -->
                     <ul class="content__container__list">
                       <style>
-                        .c-article__img-wrapper2{
-                                            
+                        .c-article__img-wrapper2 {
                           height: auto;
                           width: 30px;
-
-                        } 
+                        }
                       </style>
-                      
-                      <li class="content__container__list__item"><img class="c-article__img-wrapper2" src={github} alt="" /></li>
-                      <li class="content__container__list__item"><img class="c-article__img-wrapper2" src={twitter} alt="" /></li>
-                      <li class="content__container__list__item"><img class="c-article__img-wrapper2" src={ig} alt="" /></li>
-                      <li class="content__container__list__item"><img class="c-article__img-wrapper2" src={email} alt="" /></li>
+
+                      <li class="content__container__list__item">
+                        <img
+                          class="c-article__img-wrapper2"
+                          src={github}
+                          alt=""
+                        />
+                      </li>
+                      <li class="content__container__list__item">
+                        <img
+                          class="c-article__img-wrapper2"
+                          src={twitter}
+                          alt=""
+                        />
+                      </li>
+                      <li class="content__container__list__item">
+                        <img class="c-article__img-wrapper2" src={ig} alt="" />
+                      </li>
+                      <li class="content__container__list__item">
+                        <img
+                          class="c-article__img-wrapper2"
+                          src={email}
+                          alt=""
+                        />
+                      </li>
                     </ul>
-                    
                   </div>
-                  
                 </div>
-        
               </div></a
             >
           </li>
@@ -763,10 +783,10 @@
     </header>
 
     <section class="o-main-section">
-  <h2 class="c-main-heading"> Hi there, I'm Hamid!</h2>
+      <h2 class="c-main-heading"><strong>Hi there, I'm Hamid!</strong></h2>
       <style>
-        .ontop{
-position: absolute;
+        .ontop {
+          position: absolute;
         }
       </style>
       <div class="pad">
@@ -821,9 +841,7 @@ position: absolute;
                   >CS</a
                 >
                 degere at the university of
-                <a class="ryersonuni" href="https://www.torontomu.ca/"
-                  >Ryerson/TMU</a
-                >
+                <a class="ryersonuni" on:click={handleClick}>Ryerson/TMU</a>
               </h3>
             </header>
           </div>
@@ -1183,7 +1201,8 @@ position: absolute;
           <div>
             <header>
               <h3 class="c-article__heading">
-                Open to New Experiences, and always <div id="flip" />
+                Open to New Experiences, and always eager
+                <div id="flip" />
                 to try out diffrent approaches.
               </h3>
             </header>
@@ -1202,13 +1221,13 @@ position: absolute;
   </main>
 
   <div class="c-author">
-    Built with 💛&☕ by <a target="_blank" class="c-author__link" href=""
-      >Hamidreza Khoramrokh</a
+    Built with 💛&☕ by <a
+      target="_blank"
+      class="c-author__link"
+      href="https://hamidrezakhoramrokh@gmail.com">Hamidreza Khoramrokh</a
     >
   </div>
 </html>
-
-
 
 <style>
   .pad {
@@ -1307,10 +1326,10 @@ position: absolute;
     -o-animation: type 0.5s 4.25s steps(20, end) forwards;
     animation: type 0.5s 4.25s steps(20, end) forwards;
   }
-  .text3{
-      padding-right: auto;
-      left: 0%;
-      overflow: visible;
+  .text3 {
+    padding-right: auto;
+    left: 0%;
+    overflow: visible;
   }
 
   .cursor2 {
