@@ -7,7 +7,7 @@
   import ig from "/src/lib/instagram.png";
 
   Swal.fire({
-    title: "<strong>🚧 {In development} 🚧</strong>",
+    title: "<strong>🚧{In development}🚧</strong>",
     background: "#F0EBE3",
 
     html: "<div> Please be kind to my newly born website :] </div> ",
@@ -76,6 +76,7 @@
       background-color: var(--white);
       color: var(--black);
       font-family: var(--font-open-sans);
+      
     }
 
     .o-page {
@@ -89,17 +90,20 @@
       display: flex;
       justify-content: space-between;
       padding: rem(20);
-      background: black;
-      border-radius: 5px;
-      margin: 10px;
+
+      // background: black;
+      // border-radius: 5px;
+      // margin: 10px;
     }
 
     .o-main-section {
+   
       margin: 0 auto;
       max-width: rem(600);
     }
 
     .c-logo {
+      
       @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
       font-family: "Roboto Slab", serif;
       font-size: rem(26);
@@ -474,10 +478,20 @@
         }
       </style>
       <nav class="c-main-menu" aria-labelledby="mainmenulabel">
-        <h2 id="mainmenulabel" class="u-visually-hidden">Main Menu</h2>
+     
         <ul class="c-main-menu__list">
           <li>
-            <a class="c-main-menu__link" />
+            <style>
+              .contact{
+                display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-left: 15px;
+              }
+            </style>
+            
+            
           </li>
           <li>
             <a
@@ -489,6 +503,8 @@
                 <style lang="scss">
                   .content {
                     &__container {
+                      
+                      margin-top: 8px;
                       font-weight: 600;
                       overflow: hidden;
                       height: 40px;
@@ -899,7 +915,7 @@
               <h3 class="c-article__heading background">
                 <a
                   >Experienced working with <a class="swift">Swift🐦</a>,
-                  <a class="js">Js</a>, HTML /
+                  <a class="js">Js</a>, <a class="html">>HTML</a> /
                   <a class="css">CSS</a>
                   , <a class="linux">Linux🐧</a> & Backend.</a
                 >
