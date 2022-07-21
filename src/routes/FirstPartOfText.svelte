@@ -14,7 +14,7 @@
               >CS</a
             >
             degere at the university of
-            <a class="ryersonuni" >Ryerson/TMU</a>
+            <a class="ryersonuni" href="https://www.torontomu.ca/" >Ryerson/TMU</a>
           </h3>
         </header>
       </div>
