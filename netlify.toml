@@ -5,3 +5,5 @@
   package = "netlify-plugin-cloudinary"
   [plugins.inputs]
   cloudName = "daya2ittg"
+  [[plugins]]
+  package = "netlify-plugin-image-optim"
