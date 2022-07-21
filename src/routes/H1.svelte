@@ -31,7 +31,7 @@
   </style>
   
   <h1 class="c-logo">
-    <a class="c-logo__link linear-wipe" href="" target="_blank"
+    <a class="c-logo__link linear-wipe" href="https://github.com/HamidRezaKhoram/my_portfolio" target="_blank"
       >PORTFOLIO!</a
     >
   </h1>
