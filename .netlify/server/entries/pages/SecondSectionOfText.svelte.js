@@ -29,7 +29,7 @@ const css = {
 const SecondSectionOfText = (0, import_index_0fac4578.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `<h3 class="${"c-article__heading"}">
-      <a>Experienced working with  <br><a class="${"swift svelte-14dh5k4"}">Swift\u{1F426}</a>,
+      <a>Experienced working with  <a class="${"swift svelte-14dh5k4"}">Swift\u{1F426}</a>,
         <a class="${"js svelte-14dh5k4"}">Js</a>, <a class="${""}">HTML</a> /
         <a class="${""}">CSS</a>
         , <a class="${"linux svelte-14dh5k4"}">Linux\u{1F427}</a> &amp; Backend.</a>

@@ -218,9 +218,16 @@
       margin-left: rem(10);
       // min-width: rem(80);
       // width: rem(180);
+      background: #e4dccf;
+      color: white;
+      border: 10px solid #e4dccf;
+      box-shadow: 5px 5px #576f72;
+      border-radius: 5px;
+      text-decoration: none;
     }
 
     .c-article__img {
+      
       border-radius: rem(10);
       display: block;
       height: 100%;
@@ -333,8 +340,6 @@
       width: 100%;
       height: max-content;
     }
-    .c-article__img {
-        width: 120%;
-      }
+
   }
 </style>

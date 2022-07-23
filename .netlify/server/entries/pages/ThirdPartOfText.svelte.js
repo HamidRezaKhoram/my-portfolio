@@ -22,10 +22,12 @@ __export(stdin_exports, {
 module.exports = __toCommonJS(stdin_exports);
 var import_index_0fac4578 = require("../../chunks/index-0fac4578.js");
 const ThirdPartOfText = (0, import_index_0fac4578.c)(($$result, $$props, $$bindings, slots) => {
-  return `<div><header><h3 class="${"c-article__heading"}">Open to New Experiences, <br> and always eager
+  return `<h3 class="${"c-article__heading"}">Open to New Experiences, and always eager
         <div id="${"flip"}"></div>
         to try out diffrent approaches.
-      </h3></header>
-    <div class="${"c-article__content"}"></div></div>
+      </h3>
+    
+   
+  
   <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}" src="${"https://assets.codepen.io/204808/17.Space-Rocket-with-requestAnimationFrame.png"}" alt="${"Responsive Mondrian art with CSS grid"}"></div>`;
 });

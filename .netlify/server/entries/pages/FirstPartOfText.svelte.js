@@ -29,9 +29,11 @@ const css = {
 };
 const FirstPartOfText = (0, import_index_0fac4578.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div><header><h3 class="${"c-article__heading"}" id="${"about"}">A learning developer, <br> in the middle of <br> getting a <a class="${"cs svelte-pv26bk"}">CS</a>
-            degere at the university of <br>
-            <a class="${"ryersonuni svelte-pv26bk"}" href="${"https://www.torontomu.ca/"}">Ryerson/TMU</a></h3></header></div>
+  return `<h3 class="${"c-article__heading"}" id="${"about"}">A learning developer, in the middle of getting a <a class="${"cs svelte-pv26bk"}">CS</a>
+            degere at the university of
+            <a class="${"ryersonuni svelte-pv26bk"}" href="${"https://www.torontomu.ca/"}">Ryerson/TMU</a></h3>
+       
+      
       <div class="${"c-article__img-wrapper"}"><img class="${"c-article__img"}"${(0, import_index_0fac4578.a)("src", logo, 0)} alt="${""}">
       </div>`;
 });

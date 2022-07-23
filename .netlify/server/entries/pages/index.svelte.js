@@ -33,9 +33,9 @@ var import_FirstPartOfText_svelte = __toESM(require("./FirstPartOfText.svelte.js
 var import_SecondSectionOfText_svelte = __toESM(require("./SecondSectionOfText.svelte.js"));
 var import_CuteCat_svelte = __toESM(require("./CuteCat.svelte.js"));
 var import_ThirdPartOfText_svelte = __toESM(require("./ThirdPartOfText.svelte.js"));
-var index_svelte_svelte_type_style_lang = /* @__PURE__ */ (() => "@media screen and (max-width: 500px){.c-article__img-wrapper.svelte-14btxan{width:100%}}")();
+var index_svelte_svelte_type_style_lang = /* @__PURE__ */ (() => "@media screen and (max-width: 500px){.c-article__img-wrapper.svelte-b7bpqv{width:100%;height:max-content}}")();
 const css = {
-  code: "@media screen and (max-width: 500px){.c-article__img-wrapper.svelte-14btxan{width:100%}}",
+  code: "@media screen and (max-width: 500px){.c-article__img-wrapper.svelte-b7bpqv{width:100%;height:max-content}}",
   map: null
 };
 const Routes = (0, import_index_0fac4578.c)(($$result, $$props, $$bindings, slots) => {
@@ -178,10 +178,10 @@ body {
   margin: 0.3125rem 0;
   display: inline-block;
   line-height: 18pt;
-  background: #576F72;
+  background: #576f72;
   color: white;
-  border: 10px solid #576F72;
-  box-shadow: 5px 5px #E4DCCF;
+  border: 10px solid #576f72;
+  box-shadow: 5px 5px #e4dccf;
   border-radius: 5px;
   text-decoration: none;
   width: 60%;
@@ -197,12 +197,18 @@ body {
   width: 40%;
   padding: 10px;
   margin-left: 0.625rem;
+  background: #e4dccf;
+  color: white;
+  border: 10px solid #e4dccf;
+  box-shadow: 5px 5px #576f72;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .c-article__img {
   border-radius: 0.625rem;
   display: block;
-  height: 120%;
+  height: 100%;
   filter: grayscale(0);
   object-fit: cover;
   transition: filter 0.3s ease-in;
@@ -256,11 +262,14 @@ body {
 
       <article class="${"c-article"}"><div class="${"c-article__link"}">${(0, import_index_0fac4578.v)(import_FirstPartOfText_svelte.default, "FirstPartOfText").$$render($$result, {}, {}, {})}</div></article>
 
-      <article class="${"c-article"}"><div class="${"c-article__link"}"><div><header>${(0, import_index_0fac4578.v)(import_SecondSectionOfText_svelte.default, "SecondSectionOfText").$$render($$result, {}, {}, {})}</header>
-            <div class="${"c-article__content"}"></div></div>
-          <div class="${"c-article__img-wrapper svelte-14btxan"}">${(0, import_index_0fac4578.v)(import_CuteCat_svelte.default, "CuteCat").$$render($$result, {}, {}, {})}</div></div></article>
+      <article class="${"c-article"}"><div class="${"c-article__link"}">${(0, import_index_0fac4578.v)(import_SecondSectionOfText_svelte.default, "SecondSectionOfText").$$render($$result, {}, {}, {})}
+           
+           
+          
+          <div class="${"c-article__img-wrapper svelte-b7bpqv"}">${(0, import_index_0fac4578.v)(import_CuteCat_svelte.default, "CuteCat").$$render($$result, {}, {}, {})}</div></div></article>
 
       <article class="${"c-article"}"><div class="${"c-article__link"}">${(0, import_index_0fac4578.v)(import_ThirdPartOfText_svelte.default, "ThirdPartOfText").$$render($$result, {}, {}, {})}</div></article></section></main>
 
-  ${(0, import_index_0fac4578.v)(import_Footer_svelte.default, "Footer").$$render($$result, {}, {}, {})}</html>`;
+  ${(0, import_index_0fac4578.v)(import_Footer_svelte.default, "Footer").$$render($$result, {}, {}, {})}
+</html>`;
 });
