@@ -125,6 +125,7 @@
 
     // Heading
     .c-main-heading {
+      
       max-width: rem(380);
       font-size: rem(30);
       font-weight: var(--font-light);
@@ -236,7 +237,8 @@
       filter: grayscale(0);
       object-fit: cover;
       transition: filter 0.3s ease-in;
-      width: 100%;
+      width: 120%;
+     
 
       .c-article__link:hover & {
         filter: grayscale(0);
