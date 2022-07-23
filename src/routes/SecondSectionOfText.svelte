@@ -4,7 +4,7 @@
 
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a
-        >Experienced working with  <br><a class="swift">Swift🐦</a>,
+        >Experienced working with  <a class="swift">Swift🐦</a>,
         <a class="js">Js</a>, <a class="">HTML</a> /
         <a class="">CSS</a>
         , <a class="linux">Linux🐧</a> & Backend.</a

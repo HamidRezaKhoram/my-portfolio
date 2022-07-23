@@ -304,12 +304,12 @@
 
       <article class="c-article">
         <div class="c-article__link">
-          <div>
-            <header>
+         
+            
               <SecondSectionOfText />
-            </header>
-            <div class="c-article__content" />
-          </div>
+           
+           
+          
           <div class="c-article__img-wrapper">
             <CuteCat />
           </div>

@@ -6,18 +6,18 @@
 
 
 
-    <div>
+    
 
-        <header>
+       
           <h3 class="c-article__heading" id="about">
-            A learning developer, <br> in the middle of <br> getting a <a class="cs"
+            A learning developer, in the middle of getting a <a class="cs"
               >CS</a
             >
-            degere at the university of <br>
+            degere at the university of
             <a class="ryersonuni" href="https://www.torontomu.ca/" >Ryerson/TMU</a>
           </h3>
-        </header>
-      </div>
+       
+      
       <div class="c-article__img-wrapper">
         <img class="c-article__img" src={logo} alt="" />
       </div>

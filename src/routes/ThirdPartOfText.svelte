@@ -1,13 +1,13 @@
-<div>
-    <header>
+
+    
       <h3 class="c-article__heading">
-        Open to New Experiences, <br> and always eager
+        Open to New Experiences, and always eager
         <div id="flip" />
         to try out diffrent approaches.
       </h3>
-    </header>
-    <div class="c-article__content" />
-  </div>
+    
+   
+  
   <div class="c-article__img-wrapper">
     <img
       class="c-article__img"
