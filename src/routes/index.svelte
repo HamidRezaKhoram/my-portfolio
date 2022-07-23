@@ -8,6 +8,8 @@
   import SecondSectionOfText from "./SecondSectionOfText.svelte";
   import CuteCat from "./CuteCat.svelte";
   import ThirdPartOfText from "./ThirdPartOfText.svelte";
+ 
+
   //For button popup handling!
   function handleClick() {
     Swal.fire({
@@ -28,18 +30,8 @@
     });
   }
 </script>
-<style>
-  @media screen and (max-width: 500px) {
-  
-    .c-article__img-wrapper {
-     
-     width: 100%;
 
 
-   }
-  
-  }
-</style>
 <html lang="eng">
   <style lang="scss">
     :root {
@@ -125,7 +117,6 @@
 
     // Heading
     .c-main-heading {
-      
       max-width: rem(380);
       font-size: rem(30);
       font-weight: var(--font-light);
@@ -134,7 +125,7 @@
       text-align: center;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
       border-right: 0.15em solid orange;
-       /* The typwriter cursor */
+      /* The typwriter cursor */
       white-space: nowrap; /* Keeps the content on a single line */
       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
       letter-spacing: 0.15em; /* Adjust as needed */
@@ -152,9 +143,9 @@
       }
     }
 
-
     @media screen and (max-width: 500px) {
-  
+
+    
       .c-main-heading {
         max-width: rem(250);
         font-size: rem(20);
@@ -198,7 +189,7 @@
       //   pointer-events: none;
       // }
     }
-   
+
     .c-article__heading {
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
       font-family: "Roboto", sans-serif;
@@ -206,13 +197,13 @@
       margin: rem(5) 0;
       display: inline-block;
       line-height: 18pt;
-      background: #576F72;
+      background: #576f72;
       color: white;
-    border: 10px solid #576F72;
-    box-shadow: 5px 5px #E4DCCF;
-    border-radius: 5px;
-    text-decoration: none;
-    width: 60%;
+      border: 10px solid #576f72;
+      box-shadow: 5px 5px #e4dccf;
+      border-radius: 5px;
+      text-decoration: none;
+      width: 60%;
     }
 
     .c-article__content {
@@ -232,13 +223,12 @@
     .c-article__img {
       border-radius: rem(10);
       display: block;
-      height: 120%;
-      
+      height: 100%;
+
       filter: grayscale(0);
       object-fit: cover;
       transition: filter 0.3s ease-in;
-      width: 120%;
-     
+      width: 100%;
 
       .c-article__link:hover & {
         filter: grayscale(0);
@@ -336,3 +326,15 @@
 
   <Footer />
 </html>
+
+<style>
+  @media screen and (max-width: 500px) {
+    .c-article__img-wrapper {
+      width: 100%;
+      height: max-content;
+    }
+    .c-article__img {
+        width: 120%;
+      }
+  }
+</style>
