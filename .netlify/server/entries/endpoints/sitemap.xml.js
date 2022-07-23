@@ -17,27 +17,31 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Error2,
-  load: () => load
+  get: () => get
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_0fac4578 = require("../../chunks/index-0fac4578.js");
-function load({ error, status }) {
-  return { props: { error, status } };
+async function get() {
+  const headers = {
+    "Cache-Control": "max-age=0, s-maxage=3600",
+    "Content-Type": "application/xml"
+  };
+  return {
+    headers,
+    body: `<?xml version="1.0" encoding="UTF-8"?>
+      <urlset
+            xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+      
+      
+      <url>
+        <loc>https://hamidrezakhoramrokh.ir/</loc>
+        <lastmod>2022-07-21T11:05:50+00:00</lastmod>
+      </url>
+      
+      
+      </urlset>`
+  };
 }
-const Error2 = (0, import_index_0fac4578.c)(($$result, $$props, $$bindings, slots) => {
-  let { status } = $$props;
-  let { error } = $$props;
-  if ($$props.status === void 0 && $$bindings.status && status !== void 0)
-    $$bindings.status(status);
-  if ($$props.error === void 0 && $$bindings.error && error !== void 0)
-    $$bindings.error(error);
-  return `<h1>${(0, import_index_0fac4578.e)(status)}</h1>
-
-<pre>${(0, import_index_0fac4578.e)(error.message)}</pre>
-
-
-
-${error.frame ? `<pre>${(0, import_index_0fac4578.e)(error.frame)}</pre>` : ``}
-${error.stack ? `<pre>${(0, import_index_0fac4578.e)(error.stack)}</pre>` : ``}`;
-});

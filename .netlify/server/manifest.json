@@ -4,18 +4,23 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-0fac4578.js"
     ],
     "dynamicImports": [
       ".svelte-kit/build/hooks.js"
     ]
+  },
+  "src/routes/sitemap.xml.js": {
+    "file": "entries/endpoints/sitemap.xml.js",
+    "src": "src/routes/sitemap.xml.js",
+    "isEntry": true
   },
   ".svelte-kit/runtime/components/layout.svelte": {
     "file": "entries/fallbacks/layout.svelte.js",
     "src": ".svelte-kit/runtime/components/layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-0fac4578.js"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -23,7 +28,98 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-0fac4578.js"
+    ]
+  },
+  "src/routes/CuteCat.svelte": {
+    "file": "entries/pages/CuteCat.svelte.js",
+    "src": "src/routes/CuteCat.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/CuteCat.svelte-eb9ce3a2.css"
+    ]
+  },
+  "src/routes/FirstPartOfText.svelte": {
+    "file": "entries/pages/FirstPartOfText.svelte.js",
+    "src": "src/routes/FirstPartOfText.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/FirstPartOfText.svelte-3aa3bcf8.css"
+    ],
+    "assets": [
+      "assets/Swift-d0d1114e.webp"
+    ]
+  },
+  "src/routes/FlashCards.svelte": {
+    "file": "entries/pages/FlashCards.svelte.js",
+    "src": "src/routes/FlashCards.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/FlashCards.svelte-e0beec55.css"
+    ],
+    "assets": [
+      "assets/github-f028b194.png",
+      "assets/email-fc3a7277.png",
+      "assets/instagram-9aabfdeb.png",
+      "assets/twitter-9858c373.png"
+    ]
+  },
+  "src/routes/Footer.svelte": {
+    "file": "entries/pages/Footer.svelte.js",
+    "src": "src/routes/Footer.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ]
+  },
+  "src/routes/H1.svelte": {
+    "file": "entries/pages/H1.svelte.js",
+    "src": "src/routes/H1.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/H1.svelte-71aa06f7.css"
+    ]
+  },
+  "src/routes/HeadOfMainBody.svelte": {
+    "file": "entries/pages/HeadOfMainBody.svelte.js",
+    "src": "src/routes/HeadOfMainBody.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/HeadOfMainBody.svelte-f78980ad.css"
+    ]
+  },
+  "src/routes/SecondSectionOfText.svelte": {
+    "file": "entries/pages/SecondSectionOfText.svelte.js",
+    "src": "src/routes/SecondSectionOfText.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/SecondSectionOfText.svelte-bb3f2714.css"
+    ]
+  },
+  "src/routes/ThirdPartOfText.svelte": {
+    "file": "entries/pages/ThirdPartOfText.svelte.js",
+    "src": "src/routes/ThirdPartOfText.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
     ]
   },
   "src/routes/index.svelte": {
@@ -31,21 +127,22 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-0fac4578.js",
+      "src/routes/HeadOfMainBody.svelte",
+      "src/routes/H1.svelte",
+      "src/routes/FlashCards.svelte",
+      "src/routes/Footer.svelte",
+      "src/routes/FirstPartOfText.svelte",
+      "src/routes/SecondSectionOfText.svelte",
+      "src/routes/CuteCat.svelte",
+      "src/routes/ThirdPartOfText.svelte"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-42b0184b.css"
-    ],
-    "assets": [
-      "assets/twitter-9858c373.png",
-      "assets/Swift-d0d1114e.webp",
-      "assets/github-f028b194.png",
-      "assets/email-fc3a7277.png",
-      "assets/instagram-9aabfdeb.png"
+      "assets/entries/pages/index.svelte-9f3e0bc9.css"
     ]
   },
-  "_index-2835083a.js": {
-    "file": "chunks/index-2835083a.js"
+  "_index-0fac4578.js": {
+    "file": "chunks/index-0fac4578.js"
   },
   ".svelte-kit/build/hooks.js": {
     "file": "chunks/hooks-1c45ba0b.js",

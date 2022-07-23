@@ -8,20 +8,16 @@ exports.handler = init({
 		entry: {"file":"start-875bf05d.js","js":["start-875bf05d.js","chunks/index-a39e3231.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
-			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
-			() => Promise.resolve().then(() => require('../server/nodes/10.js'))
+			() => Promise.resolve().then(() => require('../server/nodes/1.js'))
 		],
 		routes: [
 			{
-				type: 'page',
-				id: "",
-				pattern: /^\/$/,
+				type: 'endpoint',
+				id: "sitemap.xml",
+				pattern: /^\/sitemap\.xml$/,
 				names: [],
 				types: [],
-				path: "/",
-				shadow: null,
-				a: [0,2],
-				b: [1]
+				load: () => Promise.resolve().then(() => require('../server/entries/endpoints/sitemap.xml.js'))
 			}
 		],
 		matchers: async () => {

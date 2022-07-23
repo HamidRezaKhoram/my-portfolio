@@ -28,11 +28,19 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["fav3.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "start-ce4baadd.js", "js": ["start-ce4baadd.js", "chunks/index-5d04db68.js"], "css": [] },
+    entry: { "file": "start-875bf05d.js", "js": ["start-875bf05d.js", "chunks/index-a39e3231.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/2.js")))
+      () => Promise.resolve().then(() => __toESM(require("./nodes/10.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/4.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/5.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/6.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/7.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/8.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/9.js")))
     ],
     routes: [
       {
@@ -44,6 +52,102 @@ const manifest = {
         path: "/",
         shadow: null,
         a: [0, 2],
+        b: [1]
+      },
+      {
+        type: "endpoint",
+        id: "sitemap.xml",
+        pattern: /^\/sitemap\.xml$/,
+        names: [],
+        types: [],
+        load: () => Promise.resolve().then(() => __toESM(require("./entries/endpoints/sitemap.xml.js")))
+      },
+      {
+        type: "page",
+        id: "CuteCat",
+        pattern: /^\/CuteCat\/?$/,
+        names: [],
+        types: [],
+        path: "/CuteCat",
+        shadow: null,
+        a: [0, 3],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "FirstPartOfText",
+        pattern: /^\/FirstPartOfText\/?$/,
+        names: [],
+        types: [],
+        path: "/FirstPartOfText",
+        shadow: null,
+        a: [0, 4],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "FlashCards",
+        pattern: /^\/FlashCards\/?$/,
+        names: [],
+        types: [],
+        path: "/FlashCards",
+        shadow: null,
+        a: [0, 5],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "Footer",
+        pattern: /^\/Footer\/?$/,
+        names: [],
+        types: [],
+        path: "/Footer",
+        shadow: null,
+        a: [0, 6],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "H1",
+        pattern: /^\/H1\/?$/,
+        names: [],
+        types: [],
+        path: "/H1",
+        shadow: null,
+        a: [0, 7],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "HeadOfMainBody",
+        pattern: /^\/HeadOfMainBody\/?$/,
+        names: [],
+        types: [],
+        path: "/HeadOfMainBody",
+        shadow: null,
+        a: [0, 8],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "SecondSectionOfText",
+        pattern: /^\/SecondSectionOfText\/?$/,
+        names: [],
+        types: [],
+        path: "/SecondSectionOfText",
+        shadow: null,
+        a: [0, 9],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "ThirdPartOfText",
+        pattern: /^\/ThirdPartOfText\/?$/,
+        names: [],
+        types: [],
+        path: "/ThirdPartOfText",
+        shadow: null,
+        a: [0, 10],
         b: [1]
       }
     ],

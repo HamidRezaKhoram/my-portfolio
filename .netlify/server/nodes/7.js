@@ -1,6 +1,8 @@
+var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __export = (target, all) => {
   for (var name in all)
@@ -14,30 +16,19 @@ var __copyProps = (to, from, except, desc) => {
   }
   return to;
 };
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Error2,
-  load: () => load
+  css: () => css,
+  entry: () => entry,
+  index: () => index,
+  js: () => js,
+  module: () => module2
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_0fac4578 = require("../../chunks/index-0fac4578.js");
-function load({ error, status }) {
-  return { props: { error, status } };
-}
-const Error2 = (0, import_index_0fac4578.c)(($$result, $$props, $$bindings, slots) => {
-  let { status } = $$props;
-  let { error } = $$props;
-  if ($$props.status === void 0 && $$bindings.status && status !== void 0)
-    $$bindings.status(status);
-  if ($$props.error === void 0 && $$bindings.error && error !== void 0)
-    $$bindings.error(error);
-  return `<h1>${(0, import_index_0fac4578.e)(status)}</h1>
-
-<pre>${(0, import_index_0fac4578.e)(error.message)}</pre>
-
-
-
-${error.frame ? `<pre>${(0, import_index_0fac4578.e)(error.frame)}</pre>` : ``}
-${error.stack ? `<pre>${(0, import_index_0fac4578.e)(error.stack)}</pre>` : ``}`;
-});
+var module2 = __toESM(require("../entries/pages/HeadOfMainBody.svelte.js"));
+const index = 7;
+const entry = "pages/HeadOfMainBody.svelte-b9c07c4d.js";
+const js = ["pages/HeadOfMainBody.svelte-b9c07c4d.js", "chunks/index-a39e3231.js"];
+const css = ["assets/pages/HeadOfMainBody.svelte-7e7013ba.css"];
