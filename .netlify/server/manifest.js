@@ -28,7 +28,7 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["fav3.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "start-d34192d8.js", "js": ["start-d34192d8.js", "chunks/index-a39e3231.js"], "css": [] },
+    entry: { "file": "start-183d5782.js", "js": ["start-183d5782.js", "chunks/index-a39e3231.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
