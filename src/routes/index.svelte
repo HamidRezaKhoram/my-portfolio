@@ -28,7 +28,18 @@
     });
   }
 </script>
+<style>
+  @media screen and (max-width: 500px) {
+  
+    .c-article__img-wrapper {
+     
+     width: 100%;
 
+
+   }
+  
+  }
+</style>
 <html lang="eng">
   <style lang="scss">
     :root {
@@ -121,7 +132,8 @@
       margin: rem(60) 0;
       text-align: center;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
-      border-right: 0.15em solid orange; /* The typwriter cursor */
+      border-right: 0.15em solid orange;
+       /* The typwriter cursor */
       white-space: nowrap; /* Keeps the content on a single line */
       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
       letter-spacing: 0.15em; /* Adjust as needed */
@@ -139,7 +151,9 @@
       }
     }
 
+
     @media screen and (max-width: 500px) {
+  
       .c-main-heading {
         max-width: rem(250);
         font-size: rem(20);
@@ -183,14 +197,21 @@
       //   pointer-events: none;
       // }
     }
-    @media screen and (max-width: 500px) {
-    }
+   
     .c-article__heading {
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
       font-family: "Roboto", sans-serif;
       font-size: rem(15);
       margin: rem(5) 0;
       display: inline-block;
+      line-height: 18pt;
+      background: #576F72;
+      color: white;
+    border: 10px solid #576F72;
+    box-shadow: 5px 5px #E4DCCF;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 60%;
     }
 
     .c-article__content {
@@ -200,8 +221,8 @@
 
     .c-article__img-wrapper {
       height: auto;
-      width: 400px;
-
+      width: 40%;
+      padding: 10px;
       margin-left: rem(10);
       // min-width: rem(80);
       // width: rem(180);
@@ -211,6 +232,7 @@
       border-radius: rem(10);
       display: block;
       height: 120%;
+      
       filter: grayscale(0);
       object-fit: cover;
       transition: filter 0.3s ease-in;

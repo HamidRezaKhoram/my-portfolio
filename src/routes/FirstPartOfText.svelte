@@ -10,10 +10,10 @@
 
         <header>
           <h3 class="c-article__heading" id="about">
-            A learning developer, in the middle of getting a <a class="cs"
+            A learning developer, <br> in the middle of <br> getting a <a class="cs"
               >CS</a
             >
-            degere at the university of
+            degere at the university of <br>
             <a class="ryersonuni" href="https://www.torontomu.ca/" >Ryerson/TMU</a>
           </h3>
         </header>
@@ -26,7 +26,7 @@
           background: #002d72;
           color: white;
           border: 3px solid #002d72;
-          box-shadow: 10px 10px orange;
+          box-shadow: 3px 3px orange;
           border-radius: 5px;
           text-decoration: none;
         }

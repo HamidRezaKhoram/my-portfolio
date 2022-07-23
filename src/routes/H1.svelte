@@ -1,7 +1,7 @@
 <style lang="less">
     .linear-wipe {
       text-align: center;
-
+      
       background: linear-gradient(
         to right,
         #576f72 20%,

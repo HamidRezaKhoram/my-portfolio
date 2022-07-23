@@ -1,7 +1,7 @@
 <div>
     <header>
       <h3 class="c-article__heading">
-        Open to New Experiences, and always eager
+        Open to New Experiences, <br> and always eager
         <div id="flip" />
         to try out diffrent approaches.
       </h3>

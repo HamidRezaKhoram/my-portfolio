@@ -1,4 +1,4 @@
-<h2 class="c-main-heading"><strong>Hi there, I'm Hamid!</strong></h2>
+<h2 class="c-main-heading"><strong>Hi there, I'm Hamid.</strong></h2>
 <div class="pad">
   <div class="fakeMenu">
     <div class="fakeButtons fakeClose" />

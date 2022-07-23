@@ -4,9 +4,9 @@
 
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a
-        >Experienced working with <a class="swift">Swift🐦</a>,
-        <a class="js">Js</a>, <a class="html">HTML</a> /
-        <a class="css">CSS</a>
+        >Experienced working with  <br><a class="swift">Swift🐦</a>,
+        <a class="js">Js</a>, <a class="">HTML</a> /
+        <a class="">CSS</a>
         , <a class="linux">Linux🐧</a> & Backend.</a
       >
     </h3>
@@ -22,8 +22,8 @@
       border-radius: 5px;
       font-family: "Roboto", sans-serif;
       color: -webkit-linear-gradient(#eee, #ff6a32);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      /* -webkit-background-clip: text; */
+      /* -webkit-text-fill-color: transparent; */
     }
     .js {
       background: #f7e018;
