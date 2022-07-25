@@ -305,7 +305,7 @@
 
       <article class="c-article">
         <div class="c-article__link">
-          <FirstPartOfText />
+          <FirstPartOfText /> 
         </div>
       </article>
 
