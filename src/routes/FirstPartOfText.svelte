@@ -1,7 +1,7 @@
 
 <script>
    
-    import logo from "../lib/Swift.webp"
+    import logo from "../photo/Swift.webp"
 </script>
 
 

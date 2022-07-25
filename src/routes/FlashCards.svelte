@@ -1,8 +1,8 @@
 <script>
-  import github from "/src/lib/github.png";
-  import email from "/src/lib/email.png";
-  import ig from "/src/lib/instagram.png";
-  import twitter from "/src/lib/twitter.png";
+  import github from "/src/photo/github.png";
+  import email from "/src/photo/email.png";
+  import ig from "/src/photo/instagram.png";
+  import twitter from "/src/photo/twitter.png";
 </script>
 
 <div>
