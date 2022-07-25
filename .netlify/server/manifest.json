@@ -122,6 +122,14 @@
       "_index-0fac4578.js"
     ]
   },
+  "src/routes/icon.svelte": {
+    "file": "entries/pages/icon.svelte.js",
+    "src": "src/routes/icon.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ]
+  },
   "src/routes/index.svelte": {
     "file": "entries/pages/index.svelte.js",
     "src": "src/routes/index.svelte",
@@ -139,6 +147,9 @@
     ],
     "css": [
       "assets/entries/pages/index.svelte-74100a2f.css"
+    ],
+    "assets": [
+      "assets/favicon-12462d80.png"
     ]
   },
   "_index-0fac4578.js": {

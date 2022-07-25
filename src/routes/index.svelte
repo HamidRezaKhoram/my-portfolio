@@ -8,6 +8,7 @@
   import SecondSectionOfText from "./SecondSectionOfText.svelte";
   import CuteCat from "./CuteCat.svelte";
   import ThirdPartOfText from "./ThirdPartOfText.svelte";
+  import icon from '../photo/favicon.png'
  
 
   //For button popup handling!
@@ -32,6 +33,10 @@
 </script>
 
 
+
+<svelte:head>
+<link rel="icon" src={icon} />
+</svelte:head>
 <html lang="eng">
   <style lang="scss">
     :root {

@@ -27,8 +27,8 @@ __export(stdin_exports, {
   module: () => module2
 });
 module.exports = __toCommonJS(stdin_exports);
-var module2 = __toESM(require("../entries/pages/index.svelte.js"));
+var module2 = __toESM(require("../entries/pages/icon.svelte.js"));
 const index = 10;
-const entry = "pages/index.svelte-089de9f0.js";
-const js = ["pages/index.svelte-089de9f0.js", "chunks/index-a39e3231.js", "pages/HeadOfMainBody.svelte-b9c07c4d.js", "pages/H1.svelte-e2d85abc.js", "pages/FlashCards.svelte-1b8164b9.js", "pages/Footer.svelte-15bb206c.js", "pages/FirstPartOfText.svelte-3fcd9e44.js", "pages/SecondSectionOfText.svelte-02f89d11.js", "pages/CuteCat.svelte-5ceb4af3.js", "pages/ThirdPartOfText.svelte-4285e4a9.js"];
-const css = ["assets/pages/index.svelte-dc3c8d43.css", "assets/pages/HeadOfMainBody.svelte-7e7013ba.css", "assets/pages/H1.svelte-409bc7bb.css", "assets/pages/FlashCards.svelte-a678588c.css", "assets/pages/FirstPartOfText.svelte-ee4e3aa0.css", "assets/pages/SecondSectionOfText.svelte-098dffa1.css", "assets/pages/CuteCat.svelte-a00d1b58.css"];
+const entry = "pages/icon.svelte-dd156baf.js";
+const js = ["pages/icon.svelte-dd156baf.js", "chunks/index-c8c9a2ed.js"];
+const css = [];

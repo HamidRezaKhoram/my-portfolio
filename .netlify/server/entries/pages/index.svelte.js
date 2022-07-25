@@ -33,6 +33,7 @@ var import_FirstPartOfText_svelte = __toESM(require("./FirstPartOfText.svelte.js
 var import_SecondSectionOfText_svelte = __toESM(require("./SecondSectionOfText.svelte.js"));
 var import_CuteCat_svelte = __toESM(require("./CuteCat.svelte.js"));
 var import_ThirdPartOfText_svelte = __toESM(require("./ThirdPartOfText.svelte.js"));
+var icon = "/_app/immutable/assets/favicon-12462d80.png";
 var index_svelte_svelte_type_style_lang = /* @__PURE__ */ (() => "@media screen and (max-width: 500px){.c-article__img-wrapper.svelte-b7bpqv{width:100%;height:max-content}}")();
 const css = {
   code: "@media screen and (max-width: 500px){.c-article__img-wrapper.svelte-b7bpqv{width:100%;height:max-content}}",
@@ -40,7 +41,8 @@ const css = {
 };
 const Routes = (0, import_index_0fac4578.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<html lang="${"eng"}"><style lang="${"scss"}">:root {
+  return `${$$result.head += `<link rel="${"icon"}"${(0, import_index_0fac4578.a)("src", icon, 0)} data-svelte="svelte-prkgh6">`, ""}
+<html lang="${"eng"}"><style lang="${"scss"}">:root {
   --black: #404040;
   --white: #fff;
   --gray: rgba(64, 64, 64, 0.15);

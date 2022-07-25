@@ -25,14 +25,14 @@ __export(stdin_exports, {
 module.exports = __toCommonJS(stdin_exports);
 const manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["favicon.png"]),
-  mimeTypes: { ".png": "image/png" },
+  assets: /* @__PURE__ */ new Set([]),
+  mimeTypes: {},
   _: {
-    entry: { "file": "start-10aa36fc.js", "js": ["start-10aa36fc.js", "chunks/index-a39e3231.js"], "css": [] },
+    entry: { "file": "start-d38fbe6d.js", "js": ["start-d38fbe6d.js", "chunks/index-c8c9a2ed.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/10.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/11.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/4.js"))),
@@ -40,7 +40,8 @@ const manifest = {
       () => Promise.resolve().then(() => __toESM(require("./nodes/6.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/7.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/8.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/9.js")))
+      () => Promise.resolve().then(() => __toESM(require("./nodes/9.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/10.js")))
     ],
     routes: [
       {
@@ -148,6 +149,17 @@ const manifest = {
         path: "/ThirdPartOfText",
         shadow: null,
         a: [0, 10],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "icon",
+        pattern: /^\/icon\/?$/,
+        names: [],
+        types: [],
+        path: "/icon",
+        shadow: null,
+        a: [0, 11],
         b: [1]
       }
     ],

@@ -9,16 +9,16 @@ exports.handler = init({
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
-			() => Promise.resolve().then(() => require('../server/nodes/3.js'))
+			() => Promise.resolve().then(() => require('../server/nodes/10.js'))
 		],
 		routes: [
 			{
 				type: 'page',
-				id: "FirstPartOfText",
-				pattern: /^\/FirstPartOfText\/?$/,
+				id: "icon",
+				pattern: /^\/icon\/?$/,
 				names: [],
 				types: [],
-				path: "/FirstPartOfText",
+				path: "/icon",
 				shadow: null,
 				a: [0,2],
 				b: [1]
