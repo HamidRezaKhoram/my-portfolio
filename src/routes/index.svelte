@@ -35,7 +35,7 @@
 
 
 <svelte:head>
-<link rel="icon" src={icon} />
+<link rel="icon" href={icon} />
 </svelte:head>
 <html lang="eng">
   <style lang="scss">
