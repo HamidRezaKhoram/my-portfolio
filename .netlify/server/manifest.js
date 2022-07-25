@@ -25,10 +25,10 @@ __export(stdin_exports, {
 module.exports = __toCommonJS(stdin_exports);
 const manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["fav3.png"]),
+  assets: /* @__PURE__ */ new Set(["favicon.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "start-183d5782.js", "js": ["start-183d5782.js", "chunks/index-a39e3231.js"], "css": [] },
+    entry: { "file": "start-3e2288cf.js", "js": ["start-3e2288cf.js", "chunks/index-a39e3231.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
