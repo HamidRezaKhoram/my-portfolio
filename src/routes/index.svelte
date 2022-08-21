@@ -19,7 +19,7 @@
       icon: "info",
       html:
         '<a href="https://github.com/HamidRezaKhoram">GitHub</a> ' +
-        '<a href="https://www.instagram.com/hamid.khoram.8/">IG</a> ' +
+        '<a href="https://www.instagram.com/hamidrezakhoramrokh/">IG</a> ' +
         '<a href="https://www.linkedin.com/in/hamidreza-khoramrokh-239786219/">LikdedIn</a> ' +
         '<a href="mailto:hamidrezakhoramrokh@gmail.com">Mail</a> ' +
         '<a href="https://twitter.com/hrkh1380">Twitter</a> ',
