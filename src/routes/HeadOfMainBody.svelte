@@ -12,7 +12,7 @@
       ><span />
     </p>
     <p class="line2 pM">
-      &nbsp;&nbsp;&ldquo;I'm a mobile developer.&rdquo;,<span class="cursor2"
+      &nbsp;&nbsp;&ldquo;and a mobile developer.&rdquo;,<span class="cursor2"
         >_</span
       >
     </p>

@@ -2,6 +2,6 @@
     Built with 💛&☕ by <a
       target="_blank"
       class="c-author__link"
-      href="https://hamidrezakhoramrokh@gmail.com">Hamidreza Khoramrokh</a
+      href="mailto:hamidrezakhoramrokh@gmail.com">Hamidreza Khoramrokh</a
     >
   </div>
