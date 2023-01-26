@@ -2,7 +2,7 @@
   <!-- svelte-ignore a11y-invalid-attribute -->
   <a
     >Experienced working with <a class="swift">Swift</a>,
-    <a class="js">Js</a>, <a class="linux">Linux🐧</a>, Frontend & Backend.</a
+    <a class="js">JavaScript</a>, <a class="linux">Linux🐧</a>, Frontend & Backend.</a
   >
 </h3>
 

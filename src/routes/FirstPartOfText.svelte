@@ -3,7 +3,7 @@
 </script>
 
           <h3 class="c-article__heading" id="about">
-            An aspiring developer, while also pursuing <a class="cs"
+            An aspiring developer, while also pursuing a <a class="cs"
               >CS</a
             >
             degree at the university of

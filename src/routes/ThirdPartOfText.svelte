@@ -2,7 +2,7 @@
     
       <h3 class="c-article__heading">
         I'm open to new experiences, and always eager
-        to try out diffrent approaches.<div id="flip" />
+        to try out different approaches.<div id="flip" />
       </h3>
     
    
