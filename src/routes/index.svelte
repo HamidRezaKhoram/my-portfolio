@@ -20,7 +20,7 @@
       html:
         '<a href="https://github.com/HamidRezaKhoram">GitHub</a> ' +
         '<a href="https://www.instagram.com/hamidrezakhoramrokh/">Instagram</a> ' +
-        '<a href="https://www.linkedin.com/in/hamidreza-khoramrokh-239786219/">linkedin</a> ' +
+        '<a href="https://www.linkedin.com/in/hamidreza-khoramrokh-239786219/">Linkedin</a> ' +
         '<a href="mailto:hamidrezakhoramrokh@gmail.com">Email</a> ' +
         '<a href="https://twitter.com/hrkh1380">Twitter</a> ',
       showCloseButton: true,
