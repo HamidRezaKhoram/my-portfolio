@@ -1,9 +1,8 @@
 
     
       <h3 class="c-article__heading">
-        Open to New Experiences, and always eager
-        <div id="flip" />
-        to try out diffrent approaches.
+        I'm open to New Experiences, and always eager
+        to try out diffrent approaches.<div id="flip" />
       </h3>
     
    

@@ -14,14 +14,14 @@
   //For button popup handling!
   function handleClick() {
     Swal.fire({
-      title: "<strong>My Contacts</strong>",
+      title: "<strong>Contact Me</strong>",
       background: "#F0EBE3",
       icon: "info",
       html:
         '<a href="https://github.com/HamidRezaKhoram">GitHub</a> ' +
-        '<a href="https://www.instagram.com/hamidrezakhoramrokh/">IG</a> ' +
-        '<a href="https://www.linkedin.com/in/hamidreza-khoramrokh-239786219/">LikdedIn</a> ' +
-        '<a href="mailto:hamidrezakhoramrokh@gmail.com">Mail</a> ' +
+        '<a href="https://www.instagram.com/hamidrezakhoramrokh/">Instagram</a> ' +
+        '<a href="https://www.linkedin.com/in/hamidreza-khoramrokh-239786219/">linkedin</a> ' +
+        '<a href="mailto:hamidrezakhoramrokh@gmail.com">Email</a> ' +
         '<a href="https://twitter.com/hrkh1380">Twitter</a> ',
       showCloseButton: true,
       showCancelButton: false,
