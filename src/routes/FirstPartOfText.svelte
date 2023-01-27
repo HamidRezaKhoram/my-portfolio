@@ -1,19 +1,12 @@
-
 <script>
-   
     import logo from "../photo/Swift.webp"
 </script>
 
-
-
-    
-
-       
           <h3 class="c-article__heading" id="about">
-            A learning developer, in the middle of getting a <a class="cs"
+            An aspiring developer, while also pursuing a <a class="cs"
               >CS</a
             >
-            degere at the university of
+            degree at the university of
             <a class="ryersonuni" href="https://www.torontomu.ca/" >Ryerson/TMU</a>
           </h3>
        
