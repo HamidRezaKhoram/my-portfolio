@@ -1,8 +1,8 @@
 <h3 class="c-article__heading">
   <!-- svelte-ignore a11y-invalid-attribute -->
   <a
-    >Experienced working with <a class="swift">Swift</a>,
-    <a class="js">JavaScript</a>, <a class="linux">Linux🐧</a>, Frontend & Backend.</a
+    >Experience working with <a class="swift">Swift</a>,
+    <a class="js">JavaScript</a><span style="padding:2px">/</span><a class="ts">TypeScript</a>, <a class="linux">Linux🐧</a>, Frontend & Backend.</a
   >
 </h3>
 
@@ -22,6 +22,12 @@
     background: #f7e018;
     color: #2d2f27;
     border: 1px solid #f7e018;
+    border-radius: 5px;
+  }
+  .ts {
+    background: #235A97;
+    color: #FAF9F8;
+    border: 1px solid #235A97;
     border-radius: 5px;
   }
   .css {
