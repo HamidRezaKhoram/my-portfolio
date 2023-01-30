@@ -1,7 +1,6 @@
 <style lang="less">
     .linear-wipe {
       text-align: center;
-      padding-left: 1.5rem;
       background: linear-gradient(
         to right,
         #576f72 20%,
@@ -32,6 +31,6 @@
   
   <h1 class="c-logo">
     <a class="c-logo__link linear-wipe" href="https://github.com/HamidRezaKhoram/my_portfolio" target="_blank"
-      >PORTFOLIO!</a
+      >Hamid's Portfolio</a
     >
   </h1>

@@ -3,10 +3,10 @@
 </script>
 
           <h3 class="c-article__heading" id="about">
-            An aspiring developer, while also pursuing a <a class="cs"
+            An aspiring developer pursuing a <a class="cs"
               >CS</a
             >
-            degree at the university of
+            degree at 
             <a class="ryersonuni" href="https://www.torontomu.ca/" >Ryerson/TMU</a>
           </h3>
        
