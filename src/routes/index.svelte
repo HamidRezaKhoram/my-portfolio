@@ -89,7 +89,7 @@
 
     .c-logo {
       @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
-      font-family: "Roboto Slab", serif;
+      font-family: "Roboto", serif;
       font-size: rem(26);
       margin: 0;
     }
