@@ -14,4 +14,5 @@ Very open to suggestions and if you'd like to contribute to this portfolio, feel
 
 The cat animation is heavily inspired by this [animation](https://codepen.io/carolineartz/pen/VwYwZaP), and the typing effects is also inspired by this [animation](https://codepen.io/carolineartz/pen/qBOEzQa). 
 
+###
 ## made with 💛&☕!
