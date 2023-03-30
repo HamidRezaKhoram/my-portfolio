@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"dotenv": "^16.0.3",
 		"micromodal": "^0.4.10",
 		"sweetalert": "^2.1.2",
 		"sweetalert2": "^11.4.23",
